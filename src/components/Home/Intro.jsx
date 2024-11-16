@@ -14,7 +14,7 @@ import { Link } from 'react-scroll'
 
 const Intro = () => {
   return (
-    <div className='  bg-[#ebf0f3] lg:bg-transparent' >
+    <div className='  ' >
       <img className='absolute z-[-1] w-screen h-screen hidden lg:flex ' src={Wave}/>
         <div className=' flex flex-col-reverse gap-10 lg:flex-row py-20 '>
             {/* Text section */}
