@@ -1,6 +1,6 @@
 // src/components/ContactForm.jsx
 import React, { useState } from 'react';
-import Handshakeimg from "../../assets/HandShake.jpg"
+import HandShake from '../../assets/Handshake.jpg'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -23,6 +23,7 @@ export default function Contact() {
     setIsSubmitted(true);
     setFormData({ name: '', phone: '', email: '', message: '' }); // Clear form
   };
+ 
 
   return (
     <div className='py-10 bg-[#ebf0f3]' id='contact'>
@@ -30,7 +31,7 @@ export default function Contact() {
     <div className='flex flex-wrap md:flex-nowrap gap-5 lg:mx-20 '>
       
       <div className='md:w-1/2 my-auto  p-3'>
-         <img className=' rounded-lg' src={Handshakeimg}/>
+         <img className=' rounded-lg' src={HandShake}/>
       </div>
     <div className="md:w-1/2 bg-slate-50 max-w-md mx-auto shadow-md rounded-lg p-5 md:p-10 ">
       
