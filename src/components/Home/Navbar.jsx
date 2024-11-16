@@ -29,7 +29,7 @@ const Navbar = () => {
      const[open,setOpen] = useState(false)
 
   return (
-    <div className=' flex w-full px-5 lg:px-20 py-5 shadow-md justify-between rounded-md bg-slate-50'>
+    <div className=' flex w-full px-5 lg:px-20 py-5 shadow-md justify-between rounded-md '>
         <div>
             <p className='flex text-2xl font-bold text-gray-600'><span>
                 <TbSquareLetterVFilled className='text-4xl text-black'/></span>ijay 

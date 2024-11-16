@@ -24,7 +24,7 @@ const About = () => {
   }
 
   return (
-    <div className='text-center lg:mt-32 pt-10 bg-[#ebf0f3] ' id='about' >
+    <div className='text-center lg:mt-32 pt-10  ' id='about' >
       
         <h1 className='text-5xl font-bold  mb-10 text-indigo-950 underline'>About Me</h1>
         <div className='flex  lg:px-20 '>

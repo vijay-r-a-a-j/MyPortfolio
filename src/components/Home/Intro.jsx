@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa6"
 import { FaSquareGithub } from "react-icons/fa6"
 import { FaSquareInstagram } from "react-icons/fa6"
 import { FaFacebookSquare } from "react-icons/fa"
-import Wave from "../../assets/Wave22.png"
+import Wave from "../../assets/NewWave.png"
 import Images from './Images'
 
 import { Link } from 'react-scroll'

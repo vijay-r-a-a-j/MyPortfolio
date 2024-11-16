@@ -26,14 +26,14 @@ export default function Contact() {
  
 
   return (
-    <div className='py-10 bg-[#ebf0f3]' id='contact'>
+    <div className='py-10 ' id='contact'>
     <h1 className='text-5xl font-bold text-indigo-950 underline mb-10 text-center'>Contact Me</h1>
     <div className='flex flex-wrap md:flex-nowrap gap-5 lg:mx-20 '>
       
       <div className='md:w-1/2 my-auto  p-3'>
          <img className=' rounded-lg' src={HandShake}/>
       </div>
-    <div className="md:w-1/2 bg-slate-50 max-w-md mx-auto shadow-md rounded-lg p-5 md:p-10 ">
+    <div className="md:w-1/2 bg-slate-300 max-w-md mx-auto shadow-md rounded-lg p-5 md:p-10 ">
       
       {isSubmitted && (
         <div className="bg-green-100 text-green-700 p-3 rounded mb-6 text-center">

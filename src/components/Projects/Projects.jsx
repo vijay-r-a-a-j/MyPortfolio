@@ -26,7 +26,7 @@ const Projects = () => {
     }
   ]
   return (
-    <div className=' py-20 bg-[#ebf0f3]' id="projects">
+    <div className=' py-20 ' id="projects">
       <h1 className='text-5xl font-bold text-indigo-950 
            text-center  mb-5 underline'> Projects</h1>
       <p className='text-2xl font-bold italic text-center
