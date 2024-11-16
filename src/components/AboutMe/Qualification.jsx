@@ -22,8 +22,8 @@ const Qualification = () => {
     }
   ]
   return (
-    <div>
-      <h1 className='text-3xl font-bold text-gray-800 flex gap-3'><span className='my-auto'><FaGraduationCap /></span>Educational journey</h1>
+    <div className='mt-10 lg:mt-5'>
+      <h1 className='text-2xl md:text-3xl font-bold text-gray-800 flex gap-3'><span className='my-auto'><FaGraduationCap /></span>Educational journey</h1>
       <div className='grid grid-cols-1 gap-2'>
         {educationInfo.map((item,index)=>(
           <div className='border-b-blue-950  border-b-4  rounded-xl shadow-md px-5 py-5' key={index}>

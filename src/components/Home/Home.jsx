@@ -4,7 +4,7 @@ import Intro from './Intro'
 
 const Home = () => {
   return (
-    <div>
+    <div  id="home">
         <Navbar/>
         <Intro/>
     </div>

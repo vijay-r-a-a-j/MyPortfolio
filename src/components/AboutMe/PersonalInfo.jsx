@@ -35,7 +35,7 @@ const PersonalInfo = () => {
    ]
 
   return (
-    <div>
+    <div className=''>
       <div className='text-start'>
         <h1 className=' text-4xl font-bold mb-5 mt-5 text-gray-800'>Hi, Im Vijay Raaj</h1>
         <p>Enthusiastic and detail-oriented Computer science graduate 
