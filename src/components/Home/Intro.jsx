@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from '../../assets/bwimg3.jpg'
-import Resume from '../../assets/VijayRaaj Resume.pdf'
+import Resume from '../../assets/Vijay Raaj Resume.pdf'
 import { FaPaperPlane } from "react-icons/fa"
 import { MdOutlineFileDownload } from "react-icons/md"
 import { FaLinkedin } from "react-icons/fa6"
